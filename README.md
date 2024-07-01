@@ -6,4 +6,4 @@
   
 - URL : https://chulin28ho.tistory.com/757
 
-![21212](https://github.com/Gyokujin/URP-Study/assets/74170514/68c13f2b-7ed9-4c76-a6e0-dd3e0234c080)
+![21212](https://github.com/Gyokujin/URP-Study/assets/74170514/5c96ac64-0ee4-4623-a1b6-f20eb2448317)
