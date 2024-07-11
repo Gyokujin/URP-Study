@@ -43,8 +43,19 @@
             "m_Id": "985a54c78899485e95e29af78a276a33"
         }
     ],
-    "m_GroupDatas": [],
-    "m_StickyNoteDatas": [],
+    "m_GroupDatas": [
+        {
+            "m_Id": "c129f8c77d6043b1bf15931ad63b548a"
+        }
+    ],
+    "m_StickyNoteDatas": [
+        {
+            "m_Id": "ce6d2ecc31f44c6f891bf7b1876fb0ae"
+        },
+        {
+            "m_Id": "ca20186aa832428bb23de738e435fe4b"
+        }
+    ],
     "m_Edges": [
         {
             "m_OutputSlot": {
@@ -257,17 +268,17 @@
     "m_Type": "UnityEditor.ShaderGraph.AddNode",
     "m_ObjectId": "2053d56ba2344dedbbfdc9a353367b91",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "c129f8c77d6043b1bf15931ad63b548a"
     },
     "m_Name": "Add",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -403.0,
-            "y": 289.0,
-            "width": 208.00001525878907,
-            "height": 302.0
+            "x": -579.0000610351563,
+            "y": 315.0000305175781,
+            "width": 208.00003051757813,
+            "height": 301.9999694824219
         }
     },
     "m_Slots": [
@@ -456,17 +467,17 @@
     "m_Type": "UnityEditor.ShaderGraph.AddNode",
     "m_ObjectId": "86c19473c66e42daa5f7a5108c969290",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "c129f8c77d6043b1bf15931ad63b548a"
     },
     "m_Name": "Add",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -124.00006103515625,
-            "y": 687.0000610351563,
-            "width": 208.0,
-            "height": 302.0
+            "x": -269.00006103515627,
+            "y": 388.9999694824219,
+            "width": 207.99998474121095,
+            "height": 302.0000305175781
         }
     },
     "m_Slots": [
@@ -499,17 +510,17 @@
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "8b2e5325480540298d67bdee8559c15d",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "c129f8c77d6043b1bf15931ad63b548a"
     },
     "m_Name": "Property",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -951.9999389648438,
-            "y": 218.0,
-            "width": 139.0,
-            "height": 33.99998474121094
+            "x": -1126.0001220703125,
+            "y": 291.0,
+            "width": 139.00006103515626,
+            "height": 34.0
         }
     },
     "m_Slots": [
@@ -639,15 +650,15 @@
     "m_Type": "UnityEditor.ShaderGraph.RedirectNodeData",
     "m_ObjectId": "985a54c78899485e95e29af78a276a33",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "c129f8c77d6043b1bf15931ad63b548a"
     },
     "m_Name": "Redirect Node",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -402.99993896484377,
-            "y": 687.0,
+            "x": -505.00006103515627,
+            "y": 679.0,
             "width": 56.000030517578128,
             "height": 24.0
         }
@@ -840,16 +851,16 @@
     "m_Type": "UnityEditor.ShaderGraph.SampleTexture2DNode",
     "m_ObjectId": "baa12cb8f7c74ce0bdbd01832d0c6ff8",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "c129f8c77d6043b1bf15931ad63b548a"
     },
     "m_Name": "Sample Texture 2D",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -764.9999389648438,
-            "y": 251.99998474121095,
-            "width": 208.0,
+            "x": -941.0000610351563,
+            "y": 291.0,
+            "width": 208.00006103515626,
             "height": 435.0
         }
     },
@@ -897,6 +908,37 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.GroupData",
+    "m_ObjectId": "c129f8c77d6043b1bf15931ad63b548a",
+    "m_Title": "R + G + B",
+    "m_Position": {
+        "x": 10.0,
+        "y": 10.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "ca20186aa832428bb23de738e435fe4b",
+    "m_Title": "",
+    "m_Content": "Add를 활용하면 RGB의 요소를 가져와 평균값으로 나누는게 가능하다. (R과 G를 더한후 그 값을 3으로 나누어 vector3로 나누게 된다)",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -661.0,
+        "y": 179.0,
+        "width": 353.0,
+        "height": 100.0
+    },
+    "m_Group": {
+        "m_Id": "c129f8c77d6043b1bf15931ad63b548a"
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Texture2DInputMaterialSlot",
     "m_ObjectId": "cc257521063c434088016ec921b5d933",
     "m_Id": 1,
@@ -928,6 +970,26 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "ce6d2ecc31f44c6f891bf7b1876fb0ae",
+    "m_Title": "Grayscale",
+    "m_Content": "R, G, B가 모두 동일하다면 흑백이 된다. (검은색 (0, 0, 0), 회색(0.5, 0.5, 0.5), 흰색(1, 1, 1))",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -980.0,
+        "y": 181.0,
+        "width": 246.0,
+        "height": 100.0
+    },
+    "m_Group": {
+        "m_Id": "c129f8c77d6043b1bf15931ad63b548a"
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Internal.Texture2DShaderProperty",
     "m_ObjectId": "e0afcae3469a47d4a4a2c55faa3bfac8",
     "m_Guid": {
@@ -947,7 +1009,7 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "m_SerializedTexture": "{\"texture\":{\"instanceID\":0}}",
+        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"36fc0290cbad8a64ba92c9c19a828f92\",\"type\":3}}",
         "m_Guid": ""
     },
     "isMainTexture": false,

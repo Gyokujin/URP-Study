@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Part7_7
-  m_Shader: {fileID: -6465566751694194690, guid: a96dac2afc1931e47b644717ab01b500,
+  m_Name: Part7_9
+  m_Shader: {fileID: -6465566751694194690, guid: 40f44dbac7e1288408926201a78684fe,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -100,7 +100,7 @@ Material:
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
-    - _Float: 0.4
+    - _Float: 0.54
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
