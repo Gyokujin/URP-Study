@@ -151,8 +151,8 @@ Material:
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _SpeedU: 3
-    - _SpeedV: 1.2
+    - _SpeedU: 0.8
+    - _SpeedV: 1.1
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 0
