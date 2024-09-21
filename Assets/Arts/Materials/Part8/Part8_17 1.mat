@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Part8_17
+  m_Name: Part8_17 1
   m_Shader: {fileID: -6465566751694194690, guid: f275e5a2dc85c1b4881f5f7332206f0f,
     type: 3}
   m_Parent: {fileID: 0}
@@ -136,7 +136,7 @@ Material:
     - _AlphaToMask: 0
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
-    - _Brightness: 2.5
+    - _Brightness: 4
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
@@ -148,11 +148,11 @@ Material:
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
     - _Float: 0.5
-    - _FlowSpeed: 0.2
+    - _FlowSpeed: 0.47
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _MaskOpacity: 0.3
+    - _MaskOpacity: 10
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005

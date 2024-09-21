@@ -164,7 +164,7 @@ Material:
     - _AlphaToMask: 0
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
-    - _Brightness: 10
+    - _Brightness: 5
     - _BumpScale: 1
     - _BurnSpeed: -1
     - _ClearCoatMask: 0
@@ -179,7 +179,7 @@ Material:
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
     - _Float: 10
-    - _FloowSpeed: 1.61
+    - _FloowSpeed: 0.97
     - _FlowSpeed: 1.83
     - _GlossMapScale: 0
     - _Glossiness: 0

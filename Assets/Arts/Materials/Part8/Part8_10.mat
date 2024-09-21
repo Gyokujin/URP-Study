@@ -136,9 +136,9 @@ Material:
     - _AlphaToMask: 0
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
-    - _Brightness: 17.3
+    - _Brightness: 7.4
     - _BumpScale: 1
-    - _BurnSpeed: -1
+    - _BurnSpeed: -0.78
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _Cull: 2
@@ -171,7 +171,7 @@ Material:
     m_Colors:
     - _AddVec: {r: 0, g: 0, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.28003737, g: 0.28452072, b: 0.2924528, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _MulVec: {r: 0, g: 0, b: 0, a: 0}
     - _OffsetVec: {r: 1.14, g: 0.76, b: 0, a: 0}
